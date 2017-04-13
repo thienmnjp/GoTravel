@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="100dp">
+
+    <RatingBar
+        android:id="@+id/ratebar"
+        style="@style/RatingBarsmall"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:numStars="5" />
+
+</RelativeLayout>

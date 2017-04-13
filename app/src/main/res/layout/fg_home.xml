@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_home"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="196dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnTayBacBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_tbb_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_TBB"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </com.loser.gotravel.common.RippleEffect>
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnDongBacBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_dbb_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_DBB"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </com.loser.gotravel.common.RippleEffect>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnBacTrungBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_btb_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_BTB"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </com.loser.gotravel.common.RippleEffect>
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnTayNguyen"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_tn_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_TN"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </com.loser.gotravel.common.RippleEffect>
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnNamTrungBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_ntb_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_NTB"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </com.loser.gotravel.common.RippleEffect>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnTayNamBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_tnb_default" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_TNB"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </com.loser.gotravel.common.RippleEffect>
+
+            <com.loser.gotravel.common.RippleEffect
+                android:id="@+id/btnDongNamBo"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ripple:rv_type="rectangle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/category_dnb_default" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="@mipmap/category_background_title">
+
+                    <TextView
+                        style="@style/textview_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/category_DNB"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+
+            </com.loser.gotravel.common.RippleEffect>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/banner_background">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:background="@mipmap/banner_background_default3" />
+
+    </FrameLayout>
+
+</FrameLayout>

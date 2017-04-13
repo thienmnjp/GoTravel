@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">" Go Travel"</string>
+
+    <!-- Category Home-->
+    <string name="category_TBB">Tay Bac Bo</string>
+    <string name="category_DBB">Dong Bac Bo</string>
+    <string name="category_BTB">Bac Trung Bo</string>
+    <string name="category_TN">Tay Nguyen</string>
+    <string name="category_NTB">Nam Trung Bo</string>
+    <string name="category_TNB">Tay Nam Bo</string>
+    <string name="category_DNB">Dong Nam Bo</string>
+
+    <!-- Left menu -->
+    <string name="left_menu_login">Login</string>
+    <string name="left_menu_home">Home</string>
+    <string name="left_menu_profile">Profile</string>
+    <string name="left_menu_setting">Setting</string>
+    <string name="left_menu_logout">Logout</string>
+    <string name="left_menu_bookmark">Bookmark</string>
+
+    <!-- Login Fragment -->
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="login_gmail">Login with Gmail</string>
+    <string name="login_twitter">Login with Twitter</string>
+    <string name="login_skip">SKIP >> </string>
+
+</resources>

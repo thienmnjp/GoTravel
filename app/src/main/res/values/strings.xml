@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">" Go Travel"</string>
+    <string name="APP_ID">1641285609478984</string>
+
+    <!-- Category Home-->
+    <string name="category_TBB">Tây Bắc Bộ</string>
+    <string name="category_DBB">Đông Bắc Bộ</string>
+    <string name="category_BTB">Bắc Trung Bộ</string>
+    <string name="category_TN">Tây Nguyên</string>
+    <string name="category_NTB">Nam Trung Bộ</string>
+    <string name="category_TNB">Tây Nam Bộ</string>
+    <string name="category_DNB">Đông Nam Bộ</string>
+    <!-- Left menu -->
+    <string name="left_menu_login">Đăng nhập</string>
+    <string name="left_menu_home">Trang chủ</string>
+    <string name="left_menu_profile">Thông tin cá nhân</string>
+    <string name="left_menu_setting">Cài đặt</string>
+    <string name="left_menu_logout">Đăng xuất</string>
+    <string name="left_menu_bookmark">Đánh dấu</string>
+    <!-- Login Fragment -->
+    <string name="login_facebook">Đăng nhập bằng Facebook</string>
+    <string name="login_gmail">Đăng nhập bằng Gmail</string>
+    <string name="login_twitter">Đăng nhập bằng Twitter</string>
+    <string name="login_skip">BỎ QUA</string>
+    <!--List Attractions Fragment -->
+    <string name="attractions_type">Thể loại: </string>
+    <!-- Detail Fragment -->
+    <string name="detail_attractions">Các địa điểm liên quan</string>
+
+    <!-- Relation Location -->
+    <string name="hotel">Khách sạn</string>
+    <string name="restaurent">Nhà hàng</string>
+    <string name="shop">Mua sắm</string>
+    <string name="entertainment">Vui chơi\nGiải trí</string>
+    <string name="close_topic">Đóng</string>
+    <string name="tvPrice">Giá: </string>
+    <string name="tvStatus">Trạng thái: </string>
+    <string name="tvDescription">Mô tả: </string>
+
+    <!-- String dialog show -->
+    <string name="dialog_title_error">Lỗi</string>
+    <string name="dialog_content_server_problem">Server đang tạm thời bị lỗi, bạn thử lại sau.</string>
+    <string name="dialog_title_common">Thông báo</string>
+    <string name="dialog_title_content_network_problem">Không có kết nối mạng</string>
+    <string name="dialog_message_login_for_comment">Bạn chưa đăng nhập ? Nhấn OK để đăng nhập</string>
+
+    <string name="tvHotel">Khách sạn</string>
+    <string name="tvRestaurent">Nhà hàng</string>
+    <string name="tvShop">Mua sắm</string>
+    <string name="tvEntertainment">Vui chơi, giải trí</string>
+
+    <string name="btnComment">Bình luận</string>
+    <string name="hint_comemnt"><i>Viết cảm nghĩ của bạn ...</i></string>
+
+
+</resources>
